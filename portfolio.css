@@ -25,7 +25,7 @@ html {
 
 
 .link {
-    float: right;
+    float: left;
     color: #fff;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -40,12 +40,16 @@ html {
     border-color: greenyellow;
 }
 
-.menu { 
+.menu {
+    position: fixed;
     list-style-type: none;
-    margin: 0; 
-    padding: 0; 
-    overflow: hidden; 
-    background-color: #333; 
+    padding: 0;
+    overflow: hidden;
+    z-index: 10;
+    background-color: #333;
+     margin-top: 10px;
+    margin-left: 400px;
+    top: 0px;
 }
 
 #name {
@@ -59,7 +63,6 @@ html {
     background-color: #000;
     width: 70px;
     margin: 8px auto;
-
 }
 
 .my {
@@ -76,7 +79,6 @@ html {
     border-style: double;
     border-color: cornflowerblue;
     border-width: thick;
-
 }
 
 #imga {
@@ -84,27 +86,21 @@ html {
     border-color: lawngreen;
     border-width: 20px;
     text-align: center;
-
-
 }
 
-#contact
-{
-background: firebrick;
+#contact {
+    background: firebrick;
 }
 
-#contact iframe
-{
+#contact iframe {
     width: 100%;
 }
 
-.contact_1 h3
-{
+.contact_1 h3 {
     display: inline;
 }
-.contact_1 a
-{
+
+.contact_1 a {
     color: white;
     text-shadow: none;
 }
-
